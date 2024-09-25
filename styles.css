@@ -1,0 +1,103 @@
+body
+{
+    background-color: rgb(253, 235, 202) !important;
+}
+a.nav-link
+{
+    color: orangered;
+    transition: 0.5s;
+}
+a.nav-link:hover
+{
+    color: orange;
+    transition: 0.5s;
+    letter-spacing: 5px;
+}
+#photo_png,#photo_jpg
+{
+    border: solid 2px orangered;
+    transition: 0.5s;
+}
+#photo_png:hover
+{
+    background-color: white;
+    border: solid 2px orange;
+    transition: 0.5s;
+}
+#photo_jpg
+{
+    border-radius: 5%;
+}
+h1
+{
+    color: orangered !important;
+}
+#btn
+{
+    border: none;
+    color: rgb(253, 235, 202);
+    background-color: orangered;
+    transition: 0.5s;
+}
+#btn:hover
+{
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    transition: 0.5s;
+}
+#social_media
+{
+    color: orangered;
+    font-size: 25px;
+    transition: 0.5s;
+}
+#social_media:hover
+{
+    color: orange;
+    transition: 0.5s;
+}
+i
+{
+    color: orangered;
+}
+.card
+{
+    transition: 0.5s;
+    border: orange 1px solid !important;
+}
+.card:hover
+{
+    background-color: rgb(253, 235, 202);
+    transition: 0.5s;
+}
+#certificate-link
+{
+    color: black;
+}
+#certificate-link:hover
+{
+    color: orangered;
+}
+#logo_skill
+{
+    height: 50px;
+    padding: 5px;
+}
+#mail
+{
+    border: 1px solid orangered;
+    padding: 10px;
+    font-size: 120%;
+}
+#mail_content
+{
+    transition: 0.5s;
+    color: orangered;
+    text-decoration: none;
+}
+#mail_content:hover
+{
+    transition: 0.5s;
+    color: orange;
+}
