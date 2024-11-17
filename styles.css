@@ -10,7 +10,6 @@ a.nav-link
 a.nav-link:hover
 {
     color: orange;
-    transition: 0.5s;
     letter-spacing: 5px;
 }
 #photo_png,#photo_jpg
@@ -22,7 +21,6 @@ a.nav-link:hover
 {
     background-color: white;
     border: solid 2px orange;
-    transition: 0.5s;
 }
 #photo_jpg
 {
@@ -44,7 +42,6 @@ h1
     color: black;
     font-weight: bold;
     background-color: orange;
-    transition: 0.5s;
 }
 #social_media
 {
@@ -55,7 +52,6 @@ h1
 #social_media:hover
 {
     color: orange;
-    transition: 0.5s;
 }
 i
 {
@@ -63,13 +59,12 @@ i
 }
 .card
 {
-    transition: 0.5s;
     border: orange 1px solid !important;
+    transition: 0.5s;
 }
 .card:hover
 {
     background-color: rgb(253, 235, 202);
-    transition: 0.5s;
 }
 #certificate-link
 {
@@ -98,6 +93,5 @@ i
 }
 #mail_content:hover
 {
-    transition: 0.5s;
     color: orange;
 }

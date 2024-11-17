@@ -19,3 +19,17 @@ function Time()
 }
 setInterval(Time,1000)
 document.getElementById("year").innerHTML=new Date().getFullYear();
+skills=["Angular","Bootstrap","C","CSS","Git","GitHub","HTML","Java","JavaScript","Linux","Maple","PHP","Python","SQL","UML"];
+skills_section=document.getElementById("skills_list");
+for (var i=0; i<skills.length; i++)
+{
+    skills_section.innerHTML+=
+    `
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 d-flex justify-content-center align-items-center">
+                <img src="Skills/${skills[i]}.png" alt="${skills[i]}" id="logo_skill">
+                <span><strong>${skills[i]}</strong></span>
+            </div>
+        </div>
+    `;
+}
