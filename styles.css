@@ -12,17 +12,17 @@ a.nav-link:hover
     color: orange;
     letter-spacing: 5px;
 }
-#photo_png,#photo_jpg
+#photo_rounded,#photo_square
 {
     border: solid 2px orangered;
     transition: 0.5s;
 }
-#photo_png:hover
+#photo_rounded:hover
 {
     background-color: white;
     border: solid 2px orange;
 }
-#photo_jpg
+#photo_square
 {
     border-radius: 5%;
 }
