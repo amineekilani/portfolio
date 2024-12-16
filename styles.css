@@ -1,6 +1,11 @@
 body
 {
     background-color: rgb(253, 235, 202) !important;
+    padding-top: 10px;
+}
+.fixed-top
+{
+    background-image: linear-gradient(rgb(253, 235, 202), rgb(253, 235, 202));
 }
 a.nav-link
 {
