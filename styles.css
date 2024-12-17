@@ -71,11 +71,16 @@ i
 {
     background-color: rgb(253, 235, 202);
 }
+#institution-link
+{
+    color: black;
+    text-decoration: none;
+}
 #certificate-link
 {
     color: black;
 }
-#certificate-link:hover
+#institution-link:hover,#certificate-link:hover
 {
     color: orangered;
 }
