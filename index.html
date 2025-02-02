@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
         <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/my-styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
@@ -16,11 +15,11 @@
             <aside class="sidebar" data-sidebar>
                 <div class="sidebar-info">
                     <figure class="avatar-box">
-                        <img src="assets/images/my-photo.jpg" alt="Amine Kilani" width="80" id="logo">
+                        <img src="assets/images/photo.jpg" alt="Amine Kilani" width="80" id="logo">
                     </figure>
                     <div class="info-content">
                         <h1 class="name" title="Amine Kilani">Amine Kilani</h1>
-                        <p class="title">Web Developer</p>
+                        <p class="title">Software Developer</p>
                     </div>
                     <button class="info_more-btn" data-sidebar-btn>
                         <span>Show Contacts</span>
@@ -80,7 +79,7 @@
                             </a>
                         </li>
                         <li class="social-item">
-                            <a href="assets/pdf/amine-kilani-resume.pdf" class="social-link" target="_blank">
+                            <a href="assets/pdf/resume.pdf" class="social-link" target="_blank">
                                 <span>Resume</span>
                             </a>
                         </li>
@@ -243,7 +242,7 @@
                         <ol class="timeline-list">
                             <li class="timeline-item">
                                 <h4 class="h4 timeline-item-title">Project Intern</h4>
-                                <span>01/2025 — present</span>
+                                <span>01/2025 — 02/2025</span>
                                 <p class="timeline-text"><a href="https://www.sofrecom.com" id="website-link-1" target="_blank">Sofrecom Tunisie</a></p>
                             </li>
                             <li class="timeline-item">
@@ -375,6 +374,9 @@
                                 <button data-filter-btn>Web Development</button>
                             </li>
                             <li class="filter-item">
+                                <button data-filter-btn>Database</button>
+                            </li>
+                            <li class="filter-item">
                                 <button data-filter-btn>Tools</button>
                             </li>
                             <li class="filter-item">
@@ -399,6 +401,9 @@
                                     <button data-select-item>Web Development</button>
                                 </li>
                                 <li class="select-item">
+                                    <button data-select-item>Database</button>
+                                </li>
+                                <li class="select-item">
                                     <button data-select-item>Tools</button>
                                 </li>
                                 <li class="select-item">
@@ -406,111 +411,153 @@
                                 </li>
                             </ul>
                         </div>
-                        <ul class="project-list">
-                            <li class="project-item active" data-filter-item data-category="web development">
-                                <figure class="project-img">
+                        <ul class="skill-list">
+                            <li class="skill-item active" data-filter-item data-category="web development">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/angular.png" alt="Angular" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">Angular</h3>
-                                <p class="project-category">Web Development</p>
+                                <h3 class="skill-title">Angular</h3>
+                                <p class="skill-category">Web Development</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="web development">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="web development">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/bootstrap.png" alt="Bootstrap" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">Bootstrap</h3>
-                                <p class="project-category">Web Development</p>
+                                <h3 class="skill-title">Bootstrap</h3>
+                                <p class="skill-category">Web Development</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="programming">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="programming">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/c.png" alt="C" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">C</h3>
-                                <p class="project-category">Programming</p>
+                                <h3 class="skill-title">C</h3>
+                                <p class="skill-category">Programming</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="web development">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="web development">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/css.png" alt="CSS" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">CSS</h3>
-                                <p class="project-category">Web Development</p>
+                                <h3 class="skill-title">CSS</h3>
+                                <p class="skill-category">Web Development</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="tools">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="web development">
+                                <figure class="skill-img">
+                                    <img src="assets/images/skills/express-js.png" alt="Express.js" loading="lazy">
+                                </figure>
+                                <h3 class="skill-title">Express.js</h3>
+                                <p class="skill-category">Web Development</p>
+                            </li>
+                            <li class="skill-item active" data-filter-item data-category="tools">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/git.png" alt="Git" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">Git</h3>
-                                <p class="project-category">Tools</p>
+                                <h3 class="skill-title">Git</h3>
+                                <p class="skill-category">Tools</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="tools">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="tools">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/github.png" alt="GitHub" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">GitHub</h3>
-                                <p class="project-category">Tools</p>
+                                <h3 class="skill-title">GitHub</h3>
+                                <p class="skill-category">Tools</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="web development">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="web development">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/html.png" alt="HTML" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">HTML</h3>
-                                <p class="project-category">Web Development</p>
+                                <h3 class="skill-title">HTML</h3>
+                                <p class="skill-category">Web Development</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="programming">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="programming">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/java.png" alt="Java" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">Java</h3>
-                                <p class="project-category">Programming</p>
+                                <h3 class="skill-title">Java</h3>
+                                <p class="skill-category">Programming</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="web development">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="web development">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/javascript.png" alt="JavaScript" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">JavaScript</h3>
-                                <p class="project-category">Web Development</p>
+                                <h3 class="skill-title">JavaScript</h3>
+                                <p class="skill-category">Web Development</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="other">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="other">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/linux.png" alt="Linux" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">Linux</h3>
-                                <p class="project-category">Other</p>
+                                <h3 class="skill-title">Linux</h3>
+                                <p class="skill-category">Other</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="other">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="other">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/maple.png" alt="Maple" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">Maple</h3>
-                                <p class="project-category">Other</p>
+                                <h3 class="skill-title">Maple</h3>
+                                <p class="skill-category">Other</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="programming">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="database">
+                                <figure class="skill-img">
+                                    <img src="assets/images/skills/mongodb.png" alt="MongoDB" loading="lazy">
+                                </figure>
+                                <h3 class="skill-title">MongoDB</h3>
+                                <p class="skill-category">Database</p>
+                            </li>
+                            <li class="skill-item active" data-filter-item data-category="programming">
+                                <figure class="skill-img">
+                                    <img src="assets/images/skills/node-js.png" alt="Node.js" loading="lazy">
+                                </figure>
+                                <h3 class="skill-title">Node.js</h3>
+                                <p class="skill-category">Programming</p>
+                            </li>
+                            <li class="skill-item active" data-filter-item data-category="programming">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/php.png" alt="PHP" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">PHP</h3>
-                                <p class="project-category">Programming</p>
+                                <h3 class="skill-title">PHP</h3>
+                                <p class="skill-category">Programming</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="programming">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="programming">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/python.png" alt="Python" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">Python</h3>
-                                <p class="project-category">Programming</p>
+                                <h3 class="skill-title">Python</h3>
+                                <p class="skill-category">Programming</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="programming">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="web development">
+                                <figure class="skill-img">
+                                    <img src="assets/images/skills/react.png" alt="React" loading="lazy">
+                                </figure>
+                                <h3 class="skill-title">React</h3>
+                                <p class="skill-category">Web Development</p>
+                            </li>
+                            <li class="skill-item active" data-filter-item data-category="programming">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/sql.png" alt="SQL" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">SQL</h3>
-                                <p class="project-category">Programming</p>
+                                <h3 class="skill-title">SQL</h3>
+                                <p class="skill-category">Programming</p>
                             </li>
-                            <li class="project-item active" data-filter-item data-category="other">
-                                <figure class="project-img">
+                            <li class="skill-item active" data-filter-item data-category="web development">
+                                <figure class="skill-img">
+                                    <img src="assets/images/skills/tailwind-css.png" alt="Tailwind CSS" loading="lazy">
+                                </figure>
+                                <h3 class="skill-title">Tailwind CSS</h3>
+                                <p class="skill-category">Web Development</p>
+                            </li>
+                            <li class="skill-item active" data-filter-item data-category="web development">
+                                <figure class="skill-img">
+                                    <img src="assets/images/skills/typescript.png" alt="TypeScript" loading="lazy">
+                                </figure>
+                                <h3 class="skill-title">TypeScript</h3>
+                                <p class="skill-category">Web Development</p>
+                            </li>
+                            <li class="skill-item active" data-filter-item data-category="other">
+                                <figure class="skill-img">
                                     <img src="assets/images/skills/uml.png" alt="UML" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">UML</h3>
-                                <p class="project-category">Other</p>
+                                <h3 class="skill-title">UML</h3>
+                                <p class="skill-category">Other</p>
                             </li>
                         </ul>
                     </section>
@@ -521,6 +568,31 @@
                     </header>
                     <section class="blog-posts">
                         <ul class="blog-posts-list">
+                            <li class="blog-post-item">
+                                <a href="https://github.com/amineekilani/sofrebooks" target="_blank">
+                                    <figure class="blog-banner-box">
+                                        <div class="project-item-icon-box">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </div>
+                                        <img src="assets/images/projects/sofrebooks.jpg" alt="sofrebooks" loading="lazy">
+                                    </figure>
+                                    <div class="blog-content">
+                                        <div class="blog-meta">
+                                            <p class="blog-category">MERN</p>
+                                            <span class="dot"></span>
+                                            <time>01/2025 — 02/2025</time>
+                                        </div>
+                                        <h3 class="h3 blog-item-title">SofreBooks</h3>
+                                        <p class="blog-text">
+                                            SofreBooks is an internal book-sharing platform for employees, built with the MERN stack.
+                                            It allows users to manage their personal book collections, search for books by title or author,
+                                            and request to borrow available books from colleagues. Owners can accept or decline borrowing requests,
+                                            and users can track their loan history. The application includes JWT authentication for secure access
+                                            and is styled with Tailwind CSS.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
                             <li class="blog-post-item">
                                 <a href="https://github.com/amineekilani/math-quiz-game-bodmas" target="_blank">
                                     <figure class="blog-banner-box">
@@ -533,12 +605,12 @@
                                         <div class="blog-meta">
                                             <p class="blog-category">Python</p>
                                             <span class="dot"></span>
-                                            <time>11/2024</time>
+                                            <time>10/2024 — 11/2024</time>
                                         </div>
                                         <h3 class="h3 blog-item-title">Math Quiz Game | BODMAS</h3>
                                         <p class="blog-text">
                                             Created a Python-based math quiz game where users can answer randomly generated questions,
-                                            validate their answers, and track scores dynamically!
+                                            validate their answers, and track scores dynamically
                                         </p>
                                     </div>
                                 </a>

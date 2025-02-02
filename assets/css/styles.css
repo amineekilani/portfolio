@@ -850,18 +850,18 @@ main
 {
     --eerie-black-2: hsl(240,2%,20%);
 }
-.project-list
+.skill-list
 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
     margin-bottom: 10px;
 }
-.project-item
+.skill-item
 {
     display: none;
 }
-.project-item.active
+.skill-item.active
 {
     display: block;
     animation: scaleUp 0.25s ease forwards;
@@ -871,11 +871,11 @@ main
     0% { transform: scale(0.5); }
     100% { transform: scale(1); }
 }
-.project-item>a
+.skill-item>a
 {
     width: 100%;
 }
-.project-img
+.skill-img
 {
     position: relative;
     width: 100%;
@@ -884,7 +884,7 @@ main
     overflow: hidden;
     margin-bottom: 15px;
 }
-.project-img::before
+.skill-img::before
 {
     content: "";
     position: absolute;
@@ -896,7 +896,7 @@ main
     z-index: 1;
     transition: var(--transition-1);
 }
-.project-item>a:hover .project-img::before
+.skill-item>a:hover .skill-img::before
 {
     background: hsla(0,0%,0%,0.5);
 }
@@ -916,7 +916,7 @@ main
     z-index: 1;
     transition: var(--transition-1);
 }
-.project-item>a:hover .project-item-icon-box
+.skill-item>a:hover .project-item-icon-box
 {
     --scale: 1;
     opacity: 1;
@@ -925,22 +925,22 @@ main
 {
     --ionicon-stroke-width: 50px;
 }
-.project-img img
+.skill-img img
 {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: var(--transition-1);
 }
-.project-item>a:hover img
+.skill-item>a:hover img
 {
     transform: scale(1.1);
 }
-.project-title,.project-category
+.skill-title,.skill-category
 {
     margin-left: 10px;
 }
-.project-title
+.skill-title
 {
     color: var(--white-2);
     font-size: var(--fs-5);
@@ -948,7 +948,7 @@ main
     text-transform: capitalize;
     line-height: 1.3;
 }
-.project-category
+.skill-category
 {
     color: var(--light-gray-70);
     font-size: var(--fs-6);
@@ -1171,7 +1171,7 @@ textarea.form-input::-webkit-resizer
     {
         min-width: calc(33.33% - 10px);
     }
-    .project-img,.blog-banner-box
+    .skill-img,.blog-banner-box
     {
         height: auto;
     }
@@ -1408,7 +1408,7 @@ textarea.form-input::-webkit-resizer
     {
         margin-bottom: 25px;
     }
-    .project-img,.blog-banner-box
+    .skill-img,.blog-banner-box
     {
         border-radius: 16px;
     }
@@ -1507,7 +1507,7 @@ textarea.form-input::-webkit-resizer
     {
         color: var(--sky-blue);
     }
-    .project-list,.blog-posts-list
+    .skill-list,.blog-posts-list
     {
         grid-template-columns: 1fr 1fr;
     }
@@ -1578,7 +1578,7 @@ textarea.form-input::-webkit-resizer
     {
         min-width: calc(25% - 38px);
     }
-    .project-list
+    .skill-list
     {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -1699,4 +1699,93 @@ textarea.form-input::-webkit-resizer
     {
         max-width: 700px;
     }
+}
+#logo
+{
+    border: 3px solid var(--navy-blue);
+    border-radius: 50%;
+}
+a
+{
+    transition: 0.5s;
+}
+#hobbies-interests-icons
+{
+    margin: 5px;
+}
+#time
+{
+    text-align: center;
+    color: var(--navy-blue);
+    margin-top: 1em;
+}
+#website-link-1
+{
+    color: var(--light-gray);
+}
+#website-link-1:hover
+{
+    color: var(--navy-blue);
+}
+#website-link-2
+{
+    color: var(--white-1);
+}
+#website-link-2:hover
+{
+    color: var(--sky-blue);
+}
+.project-item-icon-box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+.blog-banner-box
+{
+    position: relative;
+    overflow: hidden;
+}
+.blog-banner-box:hover .project-item-icon-box
+{
+    opacity: 1;
+}
+.blog-banner-box img
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.blog-banner-box:hover img
+{
+    transform: scale(1.1);
+}
+.blog-image
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (min-width: 1250px)
+{
+    .certifications
+    {
+        padding-top: 80px;
+    }
+}
+footer
+{
+    text-align: center;
+    padding: 1rem 0;
+    color: var(--navy-blue);
+    padding-top: 0px !important;
+}
+#year
+{
+    display: inline;
 }
