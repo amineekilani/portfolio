@@ -347,6 +347,10 @@ main
 {
     color: var(--white-2);
     font-size: var(--fs-7);
+    overflow-wrap: anywhere;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }
 .contact-info address
 {
@@ -1677,9 +1681,13 @@ textarea.form-input::-webkit-resizer
     }
     .contact-info:is(.contact-link)
     {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+        overflow-wrap: anywhere;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
     }
     .contact-info:is(.contact-link,time,address)
     {
