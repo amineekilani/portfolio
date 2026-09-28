@@ -72,7 +72,7 @@ function PortfolioApp() {
             <main>
                 <aside className={`sidebar${sidebarOpen ? ' active' : ''}`}>
                     <div className="sidebar-info">
-                        <figure className="avatar-box"><img id="logo" src="/photo.jpg" alt="Amine Kilani" width="80" /></figure>
+                        <figure className="avatar-box"><img id="logo" src={`${import.meta.env.BASE_URL}photo.jpg`} alt="Amine Kilani" width="80" /></figure>
                         <div className="info-content"><h1 className="name">Amine Kilani</h1><p className="title">Software Developer</p></div>
                         <button className="info_more-btn" type="button" aria-expanded={sidebarOpen} onClick={() => setSidebarOpen(!sidebarOpen)}>
                             <span>{sidebarOpen ? 'Hide Contacts' : 'Show Contacts'}</span><Icon name="chevron-down" />
