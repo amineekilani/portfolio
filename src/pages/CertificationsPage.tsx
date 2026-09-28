@@ -14,7 +14,7 @@ export function CertificationsPage({ active }: CertificationsPageProps) {
                         return (
                         <li className="blog-post-item" key={name}>
                             <a href={url} target="_blank" rel="noreferrer">
-                                <figure className="blog-banner-box"><img src={`/certificates/${imageName}.jpg`} alt={name} loading="lazy" /></figure>
+                                <figure className="blog-banner-box"><img src={`${import.meta.env.BASE_URL}certificates/${imageName}.jpg`} alt={name} loading="lazy" /></figure>
                                 <div className="blog-content">
                                     <div className="blog-meta"><p className="blog-category">{issuer}</p><span className="dot" /><time>{date}</time></div>
                                     <h3 className="h3 blog-item-title">{name}</h3>

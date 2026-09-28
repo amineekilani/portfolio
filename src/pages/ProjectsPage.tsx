@@ -30,7 +30,7 @@ function ProjectCard({ project }: { project: Project }) {
         <>
             <figure className="blog-banner-box">
                 {project.codeUrl && <div className="project-item-icon-box"><Icon name="eye-outline" /></div>}
-                <img src={`/projects/${imageName}.jpg`} alt={project.title} loading="lazy" />
+                <img src={`${import.meta.env.BASE_URL}projects/${imageName}.jpg`} alt={project.title} loading="lazy" />
             </figure>
             <div className="blog-content">
                 <div className="blog-meta"><p className="blog-category">{project.technologies.join(' - ')}</p><span className="dot" /><time>{project.period}</time></div>

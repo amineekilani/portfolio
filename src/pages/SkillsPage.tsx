@@ -34,7 +34,7 @@ export function SkillsPage({ active, selectedCategory, categoryLabel, selectOpen
 
                         return (
                             <li className="skill-item active" data-filter-item data-category={category} key={title}>
-                                <figure className="skill-img"><img src={`/skills/${imageName}.png`} alt={title} loading="lazy" /></figure>
+                                <figure className="skill-img"><img src={`${import.meta.env.BASE_URL}skills/${imageName}.png`} alt={title} loading="lazy" /></figure>
                                 <h3 className="skill-title">{title}</h3><p className="skill-category">{skillCategory}</p>
                             </li>
                         )

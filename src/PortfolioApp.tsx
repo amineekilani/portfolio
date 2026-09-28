@@ -121,7 +121,7 @@ function PortfolioApp() {
                     <div className="overlay active" />
                     <section className="testimonials-modal" role="dialog" aria-modal="true" aria-labelledby="hobby-title" onClick={(event) => event.stopPropagation()}>
                         <button className="modal-close-btn" type="button" aria-label="Close" onClick={() => setSelectedHobby(null)}><Icon name="close-outline" /></button>
-                        <div className="modal-img-wrapper"><figure className="modal-avatar-box"><img src={`/icons/${selectedHobby[1]}`} alt="" width="80" /></figure><img src="/icons/icon-quote.svg" alt="" /></div>
+                        <div className="modal-img-wrapper"><figure className="modal-avatar-box"><img src={`${import.meta.env.BASE_URL}icons/${selectedHobby[1]}`} alt="" width="80" /></figure><img src={`${import.meta.env.BASE_URL}icons/icon-quote.svg`} alt="" /></div>
                         <div className="modal-content"><h4 className="h3 modal-title" id="hobby-title">{selectedHobby[0]}</h4><div className="testimonials-text"><p>{selectedHobby[2]}</p></div></div>
                     </section>
                 </div>

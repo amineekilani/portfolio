@@ -17,7 +17,7 @@ export function AboutPage({ active, onSelectHobby }: AboutPageProps) {
                 <ul className="service-list">
                     {services.map(([name, image, description]) => (
                         <li className="service-item" key={name}>
-                            <div className="service-icon-box"><img src={`/icons/${image}`} alt={name} width="40" /></div>
+                            <div className="service-icon-box"><img src={`${import.meta.env.BASE_URL}icons/${image}`} alt={name} width="40" /></div>
                             <div className="service-content-box"><h4 className="h4 service-item-title">{name}</h4><p className="service-item-text">{description}</p></div>
                         </li>
                     ))}
@@ -29,7 +29,7 @@ export function AboutPage({ active, onSelectHobby }: AboutPageProps) {
                     {hobbies.map((hobby) => (
                         <li className="testimonials-item" key={hobby[0]}>
                             <button className="content-card" type="button" onClick={() => onSelectHobby(hobby)}>
-                                <figure className="testimonials-avatar-box"><img className="hobby-icon" src={`/icons/${hobby[1]}`} alt="" width="60" /></figure>
+                                <figure className="testimonials-avatar-box"><img className="hobby-icon" src={`${import.meta.env.BASE_URL}icons/${hobby[1]}`} alt="" width="60" /></figure>
                                 <h4 className="h4 testimonials-item-title">{hobby[0]}</h4>
                                 <div className="testimonials-text"><p style={{ textAlign: 'justify' }}>{hobby[2]}</p></div>
                             </button>
