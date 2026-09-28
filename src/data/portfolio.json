@@ -1,0 +1,574 @@
+{
+    "email": "aminekilani901@gmail.com",
+    "linkedInUsername": "aminekilani",
+    "githubUsername": "amineekilani",
+    "phone": "00 216 90 669 701",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102239.41060509716!2d10.060876000792609!3d36.79499200037431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd337f5e7ef543%3A0xd671924e714a0275!2sTunis!5e0!3m2!1sfr!2stn!4v1778938258234!5m2!1sfr!2stn",
+    "workExperience": [
+        {
+            "title": "Project Intern",
+            "company": "Sopra HR Software",
+            "companyUrl": "https://www.soprahr.com",
+            "period": "02/2026 — 05/2026"
+        },
+        {
+            "title": "Academic Exchange Participant",
+            "company": "Beijing University of Posts and Telecommunications",
+            "companyUrl": "https://english.bupt.edu.cn",
+            "period": "06/2025 — 07/2025"
+        },
+        {
+            "title": "Project Intern",
+            "company": "Sofrecom",
+            "companyUrl": "https://www.sofrecom.com",
+            "period": "01/2025 — 02/2025"
+        },
+        {
+            "title": "IT Department Intern",
+            "company": "Société de Transformation de Métaux | PAF",
+            "companyUrl": "https://www.paftube.com",
+            "period": "01/2024 — 02/2024"
+        }
+    ],
+    "education": [
+        {
+            "field": "Information Technologies - Development of Information Systems",
+            "period": "09/2023 — 06/2026",
+            "degree": "Bachelor's Degree",
+            "institution": "ISET Radès",
+            "institutionUrl": "http://www.isetr.rnu.tn"
+        }
+    ],
+    "volunteering": [
+        {
+            "organization": "IEEE ISET Radès Student Branch",
+            "organizationUrl": "https://ieee.tn/units/student-branches",
+            "position": [
+                {
+                    "title": "Treasurer",
+                    "period": "01/2025 — 12/2025"
+                },
+                {
+                    "title": "Computer Society Chapter & Women In Engineering Affinity Group Member",
+                    "period": "10/2024 — 12/2025"
+                }
+            ]
+        },
+        {
+            "organization": "Tunisian Red Crescent ISET Radès",
+            "organizationUrl": "https://crisetrades.wixsite.com/crisetrades",
+            "position": [
+                {
+                    "title": "Volunteer",
+                    "period": "11/2024 — 10/2025"
+                }
+            ]
+        },
+        {
+            "organization": "SecuriNets ISET Radès",
+            "organizationUrl": "https://securinets.netlify.app",
+            "position": [
+                {
+                    "title": "Member",
+                    "period": "04/2025 — 06/2025"
+                }
+            ]
+        },
+        {
+            "organization": "SecuriNets ISET Zaghouan",
+            "organizationUrl": "https://securinets.tn",
+            "position": [
+                {
+                    "title": "Member",
+                    "period": "12/2023 — 06/2024"
+                }
+            ]
+        },
+        {
+            "organization": "TIMUN Ezzahra",
+            "organizationUrl": "https://timun.tn/timun-clubs",
+            "position": [
+                {
+                    "title": "Member",
+                    "period": "10/2021 — 05/2024"
+                },
+                {
+                    "title": "General Secretary in charge of Marketing and Communication (MarCom)",
+                    "period": "02/2022 — 09/2022"
+                }
+            ]
+        },
+        {
+            "organization": "Enactus ISET Zaghouan",
+            "organizationUrl": "https://enactus.org.tn",
+            "position": [
+                {
+                    "title": "Member",
+                    "period": "10/2023 — 02/2024"
+                }
+            ]
+        },
+        {
+            "organization": "Interact Club Tunis El Bey",
+            "organizationUrl": "https://www.rotary.org/get-involved/youth-programs/interact-clubs",
+            "position": [
+                {
+                    "title": "Recruit",
+                    "period": "01/2021 — 04/2021"
+                }
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Arabic",
+            "level": "Native proficiency",
+            "percent": 100
+        },
+        {
+            "language": "English",
+            "level": "Full professional proficiency",
+            "percent": 80
+        },
+        {
+            "language": "French",
+            "level": "Full professional proficiency",
+            "percent": 90
+        },
+        {
+            "language": "German",
+            "level": "Elementary proficiency",
+            "percent": 25
+        }
+    ],
+    "skills": [
+        {
+            "title": "Android Development",
+            "category": "Development"
+        },
+        {
+            "title": "Angular",
+            "category": "Development"
+        },
+        {
+            "title": "Arduino",
+            "category": "Tools"
+        },
+        {
+            "title": "Bootstrap",
+            "category": "Development"
+        },
+        {
+            "title": "C",
+            "category": "Programming"
+        },
+        {
+            "title": "CSS",
+            "category": "Development"
+        },
+        {
+            "title": "Docker",
+            "category": "Tools"
+        },
+        {
+            "title": "Express.js",
+            "category": "Development"
+        },
+        {
+            "title": "FastAPI",
+            "category": "Development"
+        },
+        {
+            "title": "Git",
+            "category": "Tools"
+        },
+        {
+            "title": "GitHub",
+            "category": "Tools"
+        },
+        {
+            "title": "Hibernate",
+            "category": "Database"
+        },
+        {
+            "title": "HTML",
+            "category": "Development"
+        },
+        {
+            "title": "Jakarta EE",
+            "category": "Development"
+        },
+        {
+            "title": "Java",
+            "category": "Programming"
+        },
+        {
+            "title": "JavaFX",
+            "category": "Development"
+        },
+        {
+            "title": "JavaScript",
+            "category": "Development"
+        },
+        {
+            "title": "Kotlin",
+            "category": "Programming"
+        },
+        {
+            "title": "Linux",
+            "category": "Other"
+        },
+        {
+            "title": "Maple",
+            "category": "Other"
+        },
+        {
+            "title": "MongoDB",
+            "category": "Database"
+        },
+        {
+            "title": "Node.js",
+            "category": "Programming"
+        },
+        {
+            "title": "PHP",
+            "category": "Programming"
+        },
+        {
+            "title": "PL/SQL",
+            "category": "Database"
+        },
+        {
+            "title": "PostgreSQL",
+            "category": "Database"
+        },
+        {
+            "title": "Python",
+            "category": "Programming"
+        },
+        {
+            "title": "React",
+            "category": "Development"
+        },
+        {
+            "title": "Spring Boot",
+            "category": "Development"
+        },
+        {
+            "title": "SQL",
+            "category": "Database"
+        },
+        {
+            "title": "Symfony",
+            "category": "Development"
+        },
+        {
+            "title": "Tailwind CSS",
+            "category": "Development"
+        },
+        {
+            "title": "TypeScript",
+            "category": "Development"
+        },
+        {
+            "title": "UML",
+            "category": "Other"
+        }
+    ],
+    "projects": [
+        {
+            "title": "DataScope HR",
+            "description": "AI-powered platform",
+            "longDescription": "DataScope HR is an AI-powered platform that helps HRIS teams search, generate, manage, and publish realistic HR test datasets through natural language. By combining NLP, hybrid search, and data quality controls, it makes HR test data faster to access, more reliable, and easier to maintain.",
+            "period": "02/2026 — 06/2026",
+            "technologies": [
+                "AI"
+            ],
+            "features": [
+                "AI-powered HR test data management platform",
+                "Natural language search with NLP, semantic search, and full-text search",
+                "Synthetic HR data generation using Llama 3.2 + Ollama",
+                "Business-rule, consistency, and data-quality validation",
+                "Bidirectional Oracle ↔ PostgreSQL ETL",
+                "Dataset versioning, metadata, audit logging, and observability",
+                "FastAPI, React, PostgreSQL, Oracle, Docker",
+                "Automated testing with Pytest & Cypress",
+                "CI/CD and enterprise-ready data governance"
+            ],
+            "codeUrl": "",
+            "icon": "FaBrain",
+            "gradient": "from-orange-500 to-red-500",
+            "featured": true
+        },
+        {
+            "title": "9awi Niveau",
+            "description": "Comprehensive e-learning platform",
+            "longDescription": "9awi Niveau is a comprehensive e-learning platform that transforms online education through intelligent gamification, featuring XP points, achievement badges, progressive levels, and competitive leaderboards to motivate learners.",
+            "period": "09/2025 — 01/2026",
+            "technologies": [
+                "Angular",
+                "Spring Boot"
+            ],
+            "features": [
+                "Full-stack e-learning / LMS platform",
+                "Gamification system with XP, levels, badges, and leaderboards",
+                "AI-powered recommendations using Python & Scikit-learn",
+                "Personalized learning paths and content suggestions",
+                "Role-based dashboards for learners, instructors, and administrators",
+                "Real-time learning progress tracking",
+                "AI chatbot for learner assistance",
+                "Automated PDF certificate generation",
+                "Google OAuth authentication",
+                "Companion Android app built with Kotlin & MVVM",
+                "Technologies: Spring Boot, Angular, MySQL, Python, Scikit-learn, Kotlin"
+            ],
+            "codeUrl": "https://github.com/amineekilani/9awi-niveau",
+            "icon": "FaGraduationCap",
+            "gradient": "from-blue-700 to-blue-700",
+            "featured": true
+        },
+        {
+            "title": "DwaExpress",
+            "description": "Comprehensive mobile application",
+            "longDescription": "DwaExpress is a comprehensive React Native mobile application that streamlines medical prescription management between patients, doctors, and pharmacists.",
+            "period": "11/2025 — 12/2025",
+            "technologies": [
+                "React Native"
+            ],
+            "features": [
+                "React Native mobile application for prescription and pharmacy management",
+                "Role-based workflows for patients, doctors, and pharmacists",
+                "Prescription-to-order conversion and order tracking",
+                "Real-time medication stock verification",
+                "Automated inventory deduction upon order validation",
+                "Multi-pharmacy support with isolated stock management",
+                "Intelligent medication detection and fallback mechanisms",
+                "Status-based order filtering and management",
+                "Secure authentication and role-based access control",
+                "Robust data validation and error handling",
+                "State management with Zustand and local persistence with AsyncStorage",
+                "Built with React Native & Expo for scalable cross-platform mobile development"
+            ],
+            "codeUrl": "https://github.com/amineekilani/dwa-express-react-native",
+            "icon": "FaPills",
+            "gradient": "from-teal-500 to-cyan-600",
+            "featured": false
+        },
+        {
+            "title": "UtopiaHire",
+            "description": "AI-powered career platform",
+            "longDescription": "UtopiaHire is an AI-powered career platform that helps job seekers analyze, optimize, and match with relevant job opportunities in real time. By combining resume intelligence, job scraping, and semantic matching, it delivers personalized recommendations while ensuring fairness through bias detection and privacy-by-design principles, making the job search process smarter, safer, and more effective. The platform was developed as part of the IEEE Computer Society Challenge at TSYP14.",
+            "period": "09/2025 — 12/2025",
+            "technologies": [
+                "React",
+                "Spring Boot"
+            ],
+            "features": [
+                "AI-powered career platform for job seekers in MENA & Sub-Saharan Africa",
+                "Real-time job scraping and opportunity aggregation",
+                "AI-powered resume analysis and profile optimization",
+                "Semantic job matching using NLP and embeddings",
+                "Personalized job recommendations and skill-gap analysis",
+                "Bias detection and mitigation for fairer recommendations",
+                "Privacy-by-design with encryption and PII anonymization",
+                "Secure and ethical handling of user data",
+                "Scalable architecture with external data source integration",
+                "Focus on responsible, transparent, and inclusive AI"
+            ],
+            "codeUrl": "https://github.com/amineekilani/ieee-cs-challenge",
+            "icon": "FaBriefcase",
+            "gradient": "from-purple-500 to-blue-500",
+            "featured": false
+        },
+        {
+            "title": "Tounes Market",
+            "description": "Modern e-commerce platform",
+            "longDescription": "Tounes Market is a modern e-commerce platform including comprehensive product catalog management, secure shopping cart functionality, order processing, and an admin dashboard for business operations.",
+            "period": "10/2025 — 11/2025",
+            "technologies": [
+                "Spring Boot"
+            ],
+            "features": [
+                "Full-stack e-commerce platform with React 19 & Spring Boot 3.5",
+                "Google OAuth 2.0 authentication",
+                "Secure JWT-based authentication with Spring Security",
+                "Stripe API integration for online payments",
+                "AI-powered virtual customer assistant",
+                "Product catalog and inventory management",
+                "Shopping cart and order processing",
+                "Comprehensive admin dashboard",
+                "RESTful API integration with MySQL",
+                "Scalable architecture using modern full-stack development practices"
+            ],
+            "codeUrl": "https://github.com/amineekilani/tounes-market",
+            "icon": "FaShoppingCart",
+            "gradient": "from-purple-600 to-blue-600",
+            "featured": false
+        },
+        {
+            "title": "EasyTicket",
+            "description": "Online football ticketing platform",
+            "longDescription": "EasyTicket is a Symfony and Tailwind CSS platform for buying football tickets online in Tunisia, featuring secure payments, QR code tickets, and seat selection. Admins can manage events and track real-time sales and stadium occupancy.",
+            "period": "02/2025 — 05/2025",
+            "technologies": [
+                "Symfony"
+            ],
+            "features": [
+                "Online football ticketing platform for Tunisia",
+                "Interactive stadium seat selection",
+                "Secure online payments with Stripe",
+                "Digital ticket generation with QR codes",
+                "Instant email ticket confirmation",
+                "User authentication, cart, and purchase history",
+                "Admin dashboard for managing matches, teams, stadiums, and users",
+                "Real-time sales statistics and stadium occupancy tracking",
+                "Responsive UI built with Tailwind CSS",
+                "Backend developed with Symfony & MySQL"
+            ],
+            "codeUrl": "https://github.com/amineekilani/easyticket",
+            "icon": "FaTicketAlt",
+            "gradient": "from-red-500 to-red-800",
+            "featured": true
+        },
+        {
+            "title": "RentRover",
+            "description": "Car rental management system",
+            "longDescription": "We developed a secure and scalable car rental management system as part of an academic project. It features role-based access control, detailed activity tracking, and a user-friendly interface. The system is designed to ensure high performance, strong security, and long-term maintainability, reflecting the standards of enterprise-level applications.",
+            "period": "03/2025 — 05/2025",
+            "technologies": [
+                "Jakarta EE"
+            ],
+            "features": [
+                "Car rental management system with secure, scalable architecture",
+                "Hybrid JDBC & Hibernate integration",
+                "Role-based access control",
+                "Comprehensive audit logging",
+                "Responsive Bootstrap interface",
+                "Focus on performance, security, and maintainability",
+                "Enterprise-oriented Java application architecture"
+            ],
+            "codeUrl": "https://github.com/BahaManai/J2EE-Car-rental-system",
+            "icon": "FaCar",
+            "gradient": "from-blue-700 to-blue-700",
+            "featured": false
+        },
+        {
+            "title": "SymBook",
+            "description": "E-commerce web application",
+            "longDescription": "SymBook is a complete e-commerce web application for buying and selling books online. It offers a smooth and secure user experience, including account creation, email verification, password recovery, smart book search, cart management, and secure payments. Administrators can manage books, users, and orders through a dedicated dashboard with visual statistics. All core and additional features were fully implemented.",
+            "period": "04/2025 — 05/2025",
+            "technologies": [
+                "Symfony"
+            ],
+            "features": [
+                "Full-featured online bookstore built with Symfony, Twig & Tailwind CSS",
+                "Secure authentication with Google OAuth2 & native login",
+                "Email verification and password recovery via Brevo",
+                "Book search, browsing, cart, and order management",
+                "Secure online payments with Stripe",
+                "AI-enhanced search for improved book discovery",
+                "Admin dashboard for books, categories, users, and orders",
+                "Advanced analytics & visualizations with Google Charts",
+                "Fully Dockerized for deployment and portability",
+                "Complete implementation of core and advanced features"
+            ],
+            "codeUrl": "https://github.com/amineekilani/symbook",
+            "icon": "FaBook",
+            "gradient": "from-purple-600 to-blue-600",
+            "featured": false
+        },
+        {
+            "title": "Tunisair Flights Management System",
+            "description": "Flight scheduling system",
+            "longDescription": "As part of the project, we built an intelligent flight scheduling system for Tunisair that automates aircraft and crew assignment based on availability and operational constraints. The platform features secure authentication, flight management, aircraft tracking, and a multi-criteria flight search engine. This solution streamlines planning, minimizes human error, and enhances operational efficiency in real-world aviation contexts.",
+            "period": "04/2025 — 05/2025",
+            "technologies": [
+                "JavaFX"
+            ],
+            "features": [
+                "Intelligent flight scheduling system for Tunisair",
+                "Aircraft assignment based on capacity and availability",
+                "Crew assignment based on availability and planning",
+                "Automatic validation of aircraft maintenance status",
+                "Secure authentication with encrypted passwords",
+                "Flight, aircraft, and crew management",
+                "Powerful multi-criteria flight search",
+                "Scheduling validation to reduce human errors",
+                "Improved flight planning and operational efficiency"
+            ],
+            "codeUrl": "https://github.com/ghada-yaac/tunisair",
+            "icon": "FaPlane",
+            "gradient": "from-red-600 to-red-600",
+            "featured": false
+        },
+        {
+            "title": "SofreBooks",
+            "description": "Book-sharing platform",
+            "longDescription": "SofreBooks is a book-sharing platform for employees, built with the MERN stack. It allows users to borrow, lend, and manage books, with AI summaries, loan tracking, and secure access.",
+            "period": "01/2025 — 02/2025",
+            "technologies": [
+                "MERN"
+            ],
+            "features": [
+                "Internal book-sharing platform for employees",
+                "Built with the MERN stack and Tailwind CSS",
+                "Personal book collection management",
+                "Search books by title or author",
+                "Book borrowing requests with owner accept/decline actions",
+                "Loan history tracking",
+                "Export books and loan histories to Excel",
+                "Book-related statistics and analytics",
+                "AI-powered book summaries using DeepSeek",
+                "Secure JWT authentication"
+            ],
+            "codeUrl": "https://github.com/amineekilani/sofrebooks",
+            "icon": "FaBookOpen",
+            "gradient": "from-orange-500 to-red-500",
+            "featured": true
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Elements of AI for Business",
+            "issuer": "MinnaLearn",
+            "date": "01/2026",
+            "url": "https://courses.minnalearn.com/certificate/en/elements-of-ai-for-business/9761ffc3-afe2-4304-a304-0b9bd3ae7b32"
+        },
+        {
+            "name": "Python Essentials 2",
+            "issuer": "Cisco",
+            "date": "12/2024",
+            "url": "https://www.credly.com/badges/7e0768da-3563-42f5-8a4f-58ea679858fb"
+        },
+        {
+            "name": "Introduction to Git and GitHub",
+            "issuer": "Google",
+            "date": "11/2024",
+            "url": "https://www.coursera.org/account/accomplishments/verify/PK50VFPFLNZW"
+        },
+        {
+            "name": "Python Essentials 1",
+            "issuer": "Cisco",
+            "date": "11/2024",
+            "url": "https://www.credly.com/badges/4b1adcb4-3c27-4b6a-be37-9b78a5a88ac1"
+        },
+        {
+            "name": "365 Fundamentals",
+            "issuer": "Microsoft",
+            "date": "03/2024",
+            "url": "https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=415&cvid=fLaTwC0nxQWlIbfW3l4qrA=="
+        },
+        {
+            "name": "Azure Fundamentals",
+            "issuer": "Microsoft",
+            "date": "03/2024",
+            "url": "https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=414&cvid=cyD3sShs3kM9s81dwd4RnA=="
+        },
+        {
+            "name": "Azure AI Fundamentals",
+            "issuer": "Microsoft",
+            "date": "03/2024",
+            "url": "https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=414&cvid=cyD3sShs3kM9s81dwd4RnA=="
+        }
+    ]
+}
