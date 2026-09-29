@@ -88,8 +88,8 @@ function PortfolioApp() {
                         </ul>
                         <div className="separator" />
                         <ul className="social-list">
-                            <li className="social-item"><a className="social-link" href="https://www.linkedin.com/in/aminekilani" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon name="logo-linkedin" /></a></li>
-                            <li className="social-item"><a className="social-link" href="https://github.com/amineekilani" target="_blank" rel="noreferrer" aria-label="GitHub"><Icon name="logo-github" /></a></li>
+                            <li className="social-item"><a className="social-link" href={`https://www.linkedin.com/in/${portfolioData.linkedInUsername}`} target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon name="logo-linkedin" /></a></li>
+                            <li className="social-item"><a className="social-link" href={`https://github.com/${portfolioData.githubUsername}`} target="_blank" rel="noreferrer" aria-label="GitHub"><Icon name="logo-github" /></a></li>
                             <li className="social-item"><a className="social-link" href="/resume.pdf" target="_blank" rel="noreferrer">Resume</a></li>
                         </ul>
                         <time id="time">{formattedDate}<br />{formattedTime}</time>
