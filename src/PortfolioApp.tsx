@@ -81,7 +81,7 @@ function PortfolioApp() {
                     <div className="sidebar-info_more">
                         <div className="separator" />
                         <ul className="contacts-list">
-                            <li className="contact-item"><div className="icon-box"><Icon name="mail-outline" /></div><div className="contact-info"><p className="contact-title">Email</p><a className="contact-link" href={`mailto:${portfolioData.email}`}>{portfolioData.email}</a></div></li>
+                            <li className="contact-item"><div className="icon-box"><Icon name="mail-outline" /></div><div className="contact-info"><p className="contact-title">Email</p><a className="contact-link email-link" href={`mailto:${portfolioData.email}`}>{portfolioData.email}</a></div></li>
                             <li className="contact-item"><div className="icon-box"><Icon name="phone-portrait-outline" /></div><div className="contact-info"><p className="contact-title">Phone</p><a className="contact-link" href={`tel:+${phoneNumber}`}>{portfolioData.phone}</a></div></li>
                             <li className="contact-item"><div className="icon-box"><Icon name="calendar-outline" /></div><div className="contact-info"><p className="contact-title">Birthday</p><time dateTime="2004-05-12">12 May 2004</time></div></li>
                             <li className="contact-item"><div className="icon-box"><Icon name="location-outline" /></div><div className="contact-info"><p className="contact-title">Location</p><address>Tunis, Tunisia</address></div></li>

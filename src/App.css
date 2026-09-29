@@ -354,6 +354,7 @@ main {
 .contact-info {
     max-width: calc(100% - 46px);
     width: calc(100% - 46px);
+    min-width: 0;
 }
 
 .contact-title {
@@ -370,6 +371,12 @@ main {
     hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
+}
+
+.contact-info .email-link {
+    white-space: nowrap;
+    overflow-wrap: normal;
+    hyphens: none;
 }
 
 .contact-info address {
@@ -1708,6 +1715,10 @@ textarea.form-input::-webkit-resizer {
 
     .contacts-list {
         grid-template-columns: 1fr;
+    }
+
+    .contact-info .email-link {
+        font-size: 11px;
     }
 
     .contact-info:is(.contact-link) {
