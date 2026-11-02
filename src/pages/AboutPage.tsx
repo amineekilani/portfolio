@@ -10,7 +10,7 @@ export function AboutPage({ active, onSelectHobby }: AboutPageProps) {
         <article className={`about${active ? ' active' : ''}`}>
             <header><h2 className="h2 article-title">About me</h2></header>
             <section className="about-text">
-                <p style={{ textAlign: 'justify' }}>Passionate about leveraging technology to solve complex problems, I am a recent graduate with a Bachelor&apos;s degree in Information Technology, specializing in Information Systems Development from the Higher Institute of Technological Studies of Radès. I have developed a solid foundation in software development and continuously strive to expand my skills beyond the classroom through self-learning. I am eager to apply my knowledge in real-world projects and grow in the field of IT.</p>
+                <p style={{ textAlign: 'justify' }}>Passionate about leveraging technology to solve complex problems, I am a Software Developer with a Bachelor&apos;s Degree in Information Technologies, specializing in Development of Information Systems from the Higher Institute of Technological Studies of Radès (ISET Radès). I am currently pursuing a Master&apos;s Degree in Computer Science at the National School of Computer Sciences (ENSI), while continuously expanding my skills through self-learning, practical projects, and hands-on experience. I am eager to apply my knowledge to real-world challenges and grow in the field of software development.</p>
             </section>
             <section className="service">
                 <h3 className="h3 service-title">What I am doing</h3>

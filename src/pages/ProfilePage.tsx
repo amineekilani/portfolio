@@ -8,17 +8,6 @@ export function ProfilePage({ active }: ProfilePageProps) {
         <article className={`profile${active ? ' active' : ''}`}>
             <header><h2 className="h2 article-title">Profile</h2></header>
             <section className="timeline">
-                <div className="title-wrapper"><div className="icon-box"><Icon name="briefcase-outline" /></div><h3 className="h3">Experience</h3></div>
-                <ol className="timeline-list">
-                    {portfolioData.workExperience.map(({ title, period, company, companyUrl }) => (
-                        <li className="timeline-item" key={`${title}-${period}`}>
-                            <h4 className="h4 timeline-item-title">{title}</h4><span>{period}</span>
-                            <p className="timeline-text"><a className="experience-link" href={companyUrl} target="_blank" rel="noreferrer">{company}</a></p>
-                        </li>
-                    ))}
-                </ol>
-            </section>
-            <section className="timeline">
                 <div className="title-wrapper"><div className="icon-box"><Icon name="book-outline" /></div><h3 className="h3">Education</h3></div>
                 <ol className="timeline-list">
                     {portfolioData.education.map(({ field, period, degree, institution, institutionUrl }) => (
@@ -26,6 +15,17 @@ export function ProfilePage({ active }: ProfilePageProps) {
                             <h4 className="h4 timeline-item-title">{field}</h4>
                             <span>{period} | {degree}</span>
                             <p className="timeline-text"><a className="experience-link" href={institutionUrl} target="_blank" rel="noreferrer">{institution}</a></p>
+                        </li>
+                    ))}
+                </ol>
+            </section>
+            <section className="timeline">
+                <div className="title-wrapper"><div className="icon-box"><Icon name="briefcase-outline" /></div><h3 className="h3">Experience</h3></div>
+                <ol className="timeline-list">
+                    {portfolioData.workExperience.map(({ title, period, company, companyUrl }) => (
+                        <li className="timeline-item" key={`${title}-${period}`}>
+                            <h4 className="h4 timeline-item-title">{title}</h4><span>{period}</span>
+                            <p className="timeline-text"><a className="experience-link" href={companyUrl} target="_blank" rel="noreferrer">{company}</a></p>
                         </li>
                     ))}
                 </ol>

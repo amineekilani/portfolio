@@ -1,9 +1,27 @@
 {
-    "email": "aminekilani901@gmail.com",
+    "personalEmail": "aminekilani901@gmail.com",
+    "universityEmail": "amine.kilani@ensi-uma.tn",
     "linkedInUsername": "aminekilani",
     "githubUsername": "amineekilani",
+    "npmjsProfile": "aminekilani",
     "phone": "00 216 90 669 701",
-    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102239.41060509716!2d10.060876000792609!3d36.79499200037431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd337f5e7ef543%3A0xd671924e714a0275!2sTunis!5e0!3m2!1sfr!2stn!4v1778938258234!5m2!1sfr!2stn",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.1988854211013!2d10.058894981772188!3d36.81375379538423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd2d96d4a9d6c9%3A0xbbe38a2694938acf!2s%C3%89cole%20Nationale%20des%20Sciences%20de%20l'Informatique!5e0!3m2!1sfr!2stn!4v1790678064208!5m2!1sfr!2stn",
+    "education": [
+        {
+            "field": "Computer Science",
+            "period": "10/2026 — Present",
+            "degree": "Master's Degree",
+            "institution": "ENSI",
+            "institutionUrl": "https://ensi.rnu.tn"
+        },
+        {
+            "field": "Information Technologies - Development of Information Systems",
+            "period": "09/2023 — 06/2026",
+            "degree": "Bachelor's Degree",
+            "institution": "ISET Radès",
+            "institutionUrl": "http://www.isetr.rnu.tn"
+        }
+    ],
     "workExperience": [
         {
             "title": "Project Intern",
@@ -28,15 +46,6 @@
             "company": "Société de Transformation de Métaux | PAF",
             "companyUrl": "https://www.paftube.com",
             "period": "01/2024 — 02/2024"
-        }
-    ],
-    "education": [
-        {
-            "field": "Information Technologies - Development of Information Systems",
-            "period": "09/2023 — 06/2026",
-            "degree": "Bachelor's Degree",
-            "institution": "ISET Radès",
-            "institutionUrl": "http://www.isetr.rnu.tn"
         }
     ],
     "volunteering": [

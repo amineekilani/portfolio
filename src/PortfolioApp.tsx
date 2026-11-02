@@ -81,7 +81,8 @@ function PortfolioApp() {
                     <div className="sidebar-info_more">
                         <div className="separator" />
                         <ul className="contacts-list">
-                            <li className="contact-item"><div className="icon-box"><Icon name="mail-outline" /></div><div className="contact-info"><p className="contact-title">Email</p><a className="contact-link email-link" href={`mailto:${portfolioData.email}`}>{portfolioData.email}</a></div></li>
+                            <li className="contact-item"><div className="icon-box"><Icon name="mail-outline" /></div><div className="contact-info"><p className="contact-title">Personal Email</p><a className="contact-link email-link" href={`mailto:${portfolioData.personalEmail}`}>{portfolioData.personalEmail}</a></div></li>
+                            <li className="contact-item"><div className="icon-box"><Icon name="mail-outline" /></div><div className="contact-info"><p className="contact-title">University Email</p><a className="contact-link email-link" href={`mailto:${portfolioData.universityEmail}`}>{portfolioData.universityEmail}</a></div></li>
                             <li className="contact-item"><div className="icon-box"><Icon name="phone-portrait-outline" /></div><div className="contact-info"><p className="contact-title">Phone</p><a className="contact-link" href={`tel:+${phoneNumber}`}>{portfolioData.phone}</a></div></li>
                             <li className="contact-item"><div className="icon-box"><Icon name="calendar-outline" /></div><div className="contact-info"><p className="contact-title">Birthday</p><time dateTime="2004-05-12">12 May 2004</time></div></li>
                             <li className="contact-item"><div className="icon-box"><Icon name="location-outline" /></div><div className="contact-info"><p className="contact-title">Location</p><address>Tunis, Tunisia</address></div></li>
@@ -90,6 +91,7 @@ function PortfolioApp() {
                         <ul className="social-list">
                             <li className="social-item"><a className="social-link" href={`https://www.linkedin.com/in/${portfolioData.linkedInUsername}`} target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon name="logo-linkedin" /></a></li>
                             <li className="social-item"><a className="social-link" href={`https://github.com/${portfolioData.githubUsername}`} target="_blank" rel="noreferrer" aria-label="GitHub"><Icon name="logo-github" /></a></li>
+                            <li className="social-item"><a className="social-link" href={`https://www.npmjs.com/~${portfolioData.npmjsProfile}`} target="_blank" rel="noreferrer" aria-label="npmjs"><Icon name="logo-npm" /></a></li>
                             <li className="social-item"><a className="social-link" href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank" rel="noreferrer">Resume</a></li>
                         </ul>
                         <time id="time">{formattedDate}<br />{formattedTime}</time>
